@@ -23,8 +23,11 @@
 
 /* Font Weight */
 .bold{
-    font-weight: 600px;
+    font-weight: 500px;
 }
 .semi-bold{
-    
+    font-weight: 600px;
+}
+.extra-bold{
+    font-weight: 700px;
 }
