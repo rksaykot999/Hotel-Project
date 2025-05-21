@@ -1,0 +1,30 @@
+
+/* Buttons */
+.btn-primary{
+    background-color: rgb(203, 235, 88);
+}
+.btn-secondary{
+    background-color: rgb(35, 217, 241);
+}
+
+/* Fonts */
+.f-16{
+    font-size: 16px;
+}
+.f-20{
+    font-size: 20px;
+}
+.f-24{
+    font-size: 24px;
+}
+.f-36{
+    font-size: 36px;
+}
+
+/* Font Weight */
+.bold{
+    font-weight: 600px;
+}
+.semi-bold{
+    
+}
