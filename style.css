@@ -1,33 +1,189 @@
-
-/* Buttons */
-.btn-primary{
-    background-color: rgb(203, 235, 88);
-}
-.btn-secondary{
-    background-color: rgb(35, 217, 241);
-}
-
 /* Fonts */
-.f-16{
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.lato-font {
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Fonts Sizes */
+.f-16 {
     font-size: 16px;
 }
-.f-20{
+
+.f-20 {
     font-size: 20px;
 }
-.f-24{
+
+.f-24 {
     font-size: 24px;
 }
-.f-36{
+
+.f-30 {
+    font-size: 30px;
+}
+
+.f-36 {
     font-size: 36px;
 }
 
+.f-40 {
+    font-size: 40px;
+}
+
+.f-45 {
+    font-size: 45px;
+}
+
 /* Font Weight */
-.bold{
+.bold {
     font-weight: 500px;
 }
-.semi-bold{
+
+.semi-bold {
     font-weight: 600px;
 }
-.extra-bold{
+
+.extra-bold {
     font-weight: 700px;
+}
+
+/* Color */
+.h-color {
+    color: black;
+}
+
+
+/* Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 4rem;
+    font-weight: bold;
+}
+
+.navbar h3 a:hover {
+    color: rgb(247, 167, 63);
+}
+
+.navbar h3 {
+    margin-left: 20px;
+    color: black;
+}
+
+.nav-middle {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.nav-middle a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar button {
+    width: 100px;
+    font-size: 15px;
+}
+
+/* Banner */
+.banner {
+    background: url('images/reception-front-desk-registrations.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+}
+
+.banner-text {
+
+    padding: 100px 0 10px 0;
+    color: #fff;
+
+}
+
+.banner h3 {
+    color: #f79233;
+    font-size: 60px;
+}
+
+.banner p {
+    padding: 50px 500px;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+}
+
+.banner button {
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    transition: color .5s;
+}
+
+.banner button:hover {
+    color: white;
+    background-color: black;
+}
+
+/* Sectinon-1 */
+.ac-room img,
+.non-ac-room img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+.ac-room-image,
+.non-ac-room-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.about-ac-room {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Section-2 */
+.single-bed,
+.double-bed {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bed {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bed h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Section-3 */
+.about-us {
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px 400px;
+    background:url(images/about-us.jpg);
+    background-size: cover;
+    color: #000000;
+}
+
+.about-us h3 {
+    font-size: 30px;
+
 }
