@@ -8,6 +8,7 @@
     }
     .banner p {
         padding: 0;
+        color: rgba(248, 248, 248, 0.61);
     }
     .banner button {
         color: rgb(240, 176, 93);
