@@ -1,0 +1,19 @@
+@media (max-width:768px) {
+    .navbar{
+        flex-direction: column;
+        height: 20vh;
+    }
+    .banner-text {
+        padding: 0;
+    }
+    .banner p {
+        padding: 0;
+        color: aliceblue;
+    }
+    .banner button {
+        color: rgb(240, 176, 93);
+    }
+    .about-us {
+        padding: 10px 0;
+    }
+}
